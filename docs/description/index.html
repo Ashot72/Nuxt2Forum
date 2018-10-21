@@ -1,0 +1,559 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#954F72;
+	text-decoration:underline;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US link=blue vlink="#954F72">
+
+<div class=WordSection1>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:18.0pt;line-height:107%;color:black'>Nuxt.js 2.0 Forum
+Description</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>Demo link Nuxt.js Single Page (SPA) link: <span
+class=MsoHyperlink><a href="https://nuxt-spa-forums.firebaseapp.com/"
+target="_blank">https://nuxt-spa-forums.firebaseapp.com/</a></span></p>
+
+<p class=MsoNormal>Demo link Nuxt.js Static Generated link: <a
+href="https://nuxt-static-forums.firebaseapp.com/" target="_blank">https://nuxt-static-forums.firebaseapp.com/</a></p>
+
+<p class=MsoNormal>Video link: <span class=MsoHyperlink><span style='color:
+#954F72'><a href="https://youtu.be/33WeNhsAcBk" target="_blank"><span
+style='color:#954F72'>https://youtu.be/33WeNhsAcBk</span></a></span></span></p>
+
+<p class=MsoNormal>How to run application page: <span class=MsoHyperlink><a
+href="https://ashot72.github.io/Nuxt2Forum/index.html" target="_blank">https://ashot72.github.io/Nuxt2Forum/index.html</a></span></p>
+
+<p class=MsoNormal><span style='color:black'>Git Repository: </span><span
+class=MsoHyperlink><a href="https://github.com/Ashot72/Nuxt2Forum"
+target="_blank">https://github.com/Ashot72/Nuxt2Forum</a></span></p>
+
+<p class=MsoNormal><span style='color:black'>Please read&nbsp;<i>How to run application</i>&nbsp;first.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>Nuxt.js <span class=MsoHyperlink><a
+href="https://nuxtjs.org/guide/" target="_blank">https://nuxtjs.org/guide/</a></span>
+is a framework for creating Vue.js applications, and you can choose between </p>
+
+<p class=MsoNormal><i>Universal, Static, </i>or<i> Single Page</i> application.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><img border=0 width=266 height=516 id="Picture 1"
+src="index_files/image001.png"></p>
+
+<p class=MsoNormal>Figure 1</p>
+
+<p class=MsoNormal>Here is the project structure generated.</p>
+
+<p class=MsoNormal>Nuxt.js is all about configuring the project through folders
+and files. Folder names all are set. You can't change them</p>
+
+<p class=MsoNormal>The important folder is <i>pages</i> folder, files in pages
+have to be Vue single file components and then be interpreted as routes.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><img border=0 width=258 height=480 id="Picture 2"
+src="index_files/image002.png"></p>
+
+<p class=MsoNormal>Figure 2</p>
+
+<p class=MsoNormal>We have three index.vue single file components.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><img border=0 width=661 height=263 id="Picture 3"
+src="index_files/image003.jpg"></p>
+
+<p class=MsoNormal>Figure 3</p>
+
+<p class=MsoNormal>Index.vue underlined in red directly under pages <i>folder </i>matches
+the host slash nothing. Forums page will be rendered.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><img border=0 width=722 height=367 id="Picture 4"
+src="index_files/image004.jpg"></p>
+
+<p class=MsoNormal>Figure 4</p>
+
+<p class=MsoNormal>'topics/-LEP35jzM4gEKsrShvlg' will match 'topics/_forumId/ index.vue'
+underlined in orange. Topics page will be rendered.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><img border=0 width=777 height=490 id="Picture 5"
+src="index_files/image005.jpg"></p>
+
+<p class=MsoNormal>Figure 5</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>'posts/-LEP35jzM4gEKsrShvlg/-LEPJqSVSjzh_zgw9EyC' will match
+'posts/_forumId/_topicId/index.vue' underlined in green. Posts page will be
+rendered.</p>
+
+<p class=MsoNormal>Behind the scenes Nuxt.js uses vue-router. It sets
+everything up with vue-router for you.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><img border=0 width=719 height=514 id="Picture 7"
+src="index_files/image006.jpg"></p>
+
+<p class=MsoNormal>Figure 6</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>Navigate <span class=MsoHyperlink><a
+href="https://nuxtjs.org/guide/routing/" target="_blank">https://nuxtjs.org/guide/routing/</a></span>
+to read about routing; dynamic, nested and dynamic nested routes.</p>
+
+<p class=MsoNormal>Dynamic route starts with _ (underscore). In our case both
+topics and posts use dynamic routes which are _forumId and _forumId/_topicId</p>
+
+<p class=MsoNormal>respectively.</p>
+
+<p class=MsoNormal>In Vue.js app we put code that has run once on app startup
+in <i>main.js</i>. <i>main.js</i> is not available in Nuxt.js. Instead it uses <i>nuxt.config.js</i>.</p>
+
+<p class=MsoNormal>Let's compare it with the forum app I created using Vue.js.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><img border=0 width=663 height=382 id="Picture 8"
+src="index_files/image007.jpg"></p>
+
+<p class=MsoNormal>Figure 7</p>
+
+<p class=MsoNormal>This is the main.js</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><img border=0 width=633 height=518 id="Picture 9"
+src="index_files/image008.jpg"></p>
+
+<p class=MsoNormal>Figure 8</p>
+
+<p class=MsoNormal>vue-router.js is referenced from main.js '@/plugins/vue-router'
+and has scrollBehavior. </p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><img border=0 width=635 height=433 id="Picture 10"
+src="index_files/image009.jpg"></p>
+
+<p class=MsoNormal>Figure 9</p>
+
+<p class=MsoNormal>scrollBevaior is defined in nuxt.config.js file.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><img border=0 width=615 height=380 id="Picture 11"
+src="index_files/image010.jpg"></p>
+
+<p class=MsoNormal>Figure 10</p>
+
+<p class=MsoNormal>In Vue.js app route transition is defined in App.vue.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><img border=0 width=623 height=273 id="Picture 12"
+src="index_files/image011.jpg"></p>
+
+<p class=MsoNormal>Figure 11</p>
+
+<p class=MsoNormal>Our Nuxt.js forum defines route transition directly in
+nuxt.config.js</p>
+
+<p class=MsoNormal>Vue.js forums application makes use of Vuex stores. In
+Nuxt.js you do not have to install Vuex dependency, it is already built in.</p>
+
+<p class=MsoNormal>Nuxt.js lets you have modes of store <i>Classic</i> and <i>Modules</i>.
+We use <i>Modules </i>as every .js inside the store directory is transformed as</p>
+
+<p class=MsoNormal>a name spaced module. We can optionally break down a module
+into separate files: state.js. actions.js, mutations.js and getters.js.</p>
+
+<p class=MsoNormal>That is what we used in our Vue.js forums.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><img border=0 width=718 height=551 id="Picture 13"
+src="index_files/image012.png"></p>
+
+<p class=MsoNormal>Figure 12</p>
+
+<p class=MsoNormal>In Vue.js forums in store's index.js file we define modules
+and import them.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><img border=0 width=707 height=452 id="Picture 14"
+src="index_files/image013.png"></p>
+
+<p class=MsoNormal>Figure 13</p>
+
+<p class=MsoNormal>In Nuxt.js version we do not have modules and imports as it
+will be transparently obtained from the folder structure.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><img border=0 width=656 height=589 id="Picture 15"
+src="index_files/image014.png"></p>
+
+<p class=MsoNormal>Figure 14</p>
+
+<p class=MsoNormal>In Vue.js <i>auth</i> module defines index.js file which has
+a reference to state, getters, mutations and actions.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><img border=0 width=616 height=484 id="Picture 16"
+src="index_files/image015.png"></p>
+
+<p class=MsoNormal>Figure 15 </p>
+
+<p class=MsoNormal>Nuxt.js does not have index.js file at all. No need to explicitly
+define imports.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><img border=0 width=648 height=227 id="Picture 17"
+src="index_files/image016.jpg"></p>
+
+<p class=MsoNormal>Figure 16</p>
+
+<p class=MsoNormal>You may notice that there is a <i>middleware</i> folder in
+our project. <i>Middleware </i>is a function that is executes before a route is
+loaded,</p>
+
+<p class=MsoNormal>before a page is loaded and you can attach middleware to all
+your routes. You can also give it on a per layout or per page basis.</p>
+
+<p class=MsoNormal>Our middleware is trying to get logged on users, data from
+local storage or cookie and register it to the store.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><img border=0 width=707 height=287 id="Picture 18"
+src="index_files/image017.jpg"></p>
+
+<p class=MsoNormal>Figure 17</p>
+
+<p class=MsoNormal>Suppose you are on topics page and already logged on. When
+you refresh the page, you should successfully see the same page with data.</p>
+
+<p class=MsoNormal>This is guaranteed via middleware both on universal, spa and
+static pages modes. But middleware is not called in static pages case on a page
+refresh.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><img border=0 width=776 height=262 id="Picture 19"
+src="index_files/image018.png"></p>
+
+<p class=MsoNormal>Figure 18</p>
+
+<p class=MsoNormal>If I navigate this page and do page refresh the middleware
+will not be called which means no auto sign call is made (Figure 16).</p>
+
+<p class=MsoNormal>The application will not work properly in static pages mode.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><img border=0 width=728 height=362 id="Picture 20"
+src="index_files/image019.jpg"></p>
+
+<p class=MsoNormal>Figure 19</p>
+
+<p class=MsoNormal>As a workaround I created a plugin and call auto signing on
+router <i>onReady() </i>method<i>.</i></p>
+
+<p class=MsoNormal>So, in <i>universal mode</i> only the middleware will be
+called. In <i>spa</i> mode both plugin and middleware will be called but it
+will not hit the database</p>
+
+<p class=MsoNormal>twice as checked in the code. In <i>static pages </i>mode
+the plugin will be called only.</p>
+
+<p class=MsoNormal>Sometimes we want to know if the code is running on the
+server or client. We can distinguish it via <i>process.client</i> or <i>process.server</i>.</p>
+
+<p class=MsoNormal>I you refresh your browser and server side rendering is
+enabled (in universal mode) then process.server will be true. Then navigating
+from one page to another</p>
+
+<p class=MsoNormal>this time process.client will be true as you are in spa
+mode. </p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><img border=0 width=742 height=494 id="Picture 21"
+src="index_files/image020.jpg"></p>
+
+<p class=MsoNormal>Figure 20</p>
+
+<p class=MsoNormal>In our auto signing in <i>process.client </i> (meaning you
+are in <i>spa</i> or <i>static pages</i> mode or navigating from one page to
+another in <i>universal</i> mode)</p>
+
+<p class=MsoNormal>we read data from local storage and pass to store as local
+storage is not available in server mode. If you refresh the page and server-side
+rendering is enabled (in universal mode)</p>
+
+<p class=MsoNormal>then we read from cookie.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><img border=0 width=704 height=429 id="Picture 22"
+src="index_files/image021.jpg"></p>
+
+<p class=MsoNormal>Figure 21</p>
+
+<p class=MsoNormal>In nuxt.config.js with <i>generate </i>we configure the
+generation of our universal web application to a static web application.</p>
+
+<p class=MsoNormal>We do it for dynamic routes because Nuxt.js cannot
+pre-rendered them and it simply does not know which kind of topic or post you
+have, which routes actually you have which _forumId, _topicId in this case you
+have to pre-render.</p>
+
+<p class=MsoNormal><i>generate </i>key holds an object where we can configure a
+couple of details. The important one is the <i>routes </i>config.</p>
+
+<p class=MsoNormal><i>routes </i>takes a function and it should return an array
+of routes that should be pre-rendered. In that route we can add all the</p>
+
+<p class=MsoNormal>dynamic routes for our various dynamic elements.</p>
+
+<p class=MsoNormal><img border=0 width=534 height=497 id="Picture 24"
+src="index_files/image022.png"></p>
+
+<p class=MsoNormal>Figure 22</p>
+
+<p class=MsoNormal>This is our firebase database structure.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><img border=0 width=726 height=429 id="Picture 23"
+src="index_files/image023.png"></p>
+
+<p class=MsoNormal>Figure 22</p>
+
+<p class=MsoNormal>We did http requests when running generate command and got
+data from Firebase database.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><img border=0 width=707 height=444 id="Picture 25"
+src="index_files/image024.jpg"></p>
+
+<p class=MsoNormal>Figure 24</p>
+
+<p class=MsoNormal>&quot;route&quot;: &quot;/topics/-LEP35jzM4gEKsrShvlg&quot;
+was included in the rendering process. It tries to find a matching page setup
+up</p>
+
+<p class=MsoNormal>where the route would fit it (pages/topics/_forumId) and it
+does as we have a <i>topic</i> folder and in that folder we have</p>
+
+<p class=MsoNormal>a dynamic element _forumId. if we inspect the <i>dist</i>
+folder under <i>topics </i>we see a new subfolder with that forumId (-LEP35jzM4gEKsrShvlg)</p>
+
+<p class=MsoNormal>and index.html file that actually includes completely
+prerendered topics.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><img border=0 width=752 height=390 id="Picture 26"
+src="index_files/image025.jpg"></p>
+
+<p class=MsoNormal>Figure 25</p>
+
+<p class=MsoNormal>Pre-rendered topics.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><img border=0 width=761 height=389 id="Picture 27"
+src="index_files/image026.jpg"></p>
+
+<p class=MsoNormal>Figure 26</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>The same applies to posts.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><img border=0 width=666 height=362 id="Picture 28"
+src="index_files/image027.jpg"></p>
+
+<p class=MsoNormal>Figure 27</p>
+
+<p class=MsoNormal>The second property of the object is <i>payload</i> which
+can contain data that we want to pass to the generated route.</p>
+
+<p class=MsoNormal>Now, we do not just generate the path but all the necessary
+data in a payload property.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><img border=0 width=343 height=535 id="Picture 29"
+src="index_files/image028.png"></p>
+
+<p class=MsoNormal>Figure 28</p>
+
+<p class=MsoNormal>We can use generated payload in index.vue files.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><img border=0 width=757 height=437 id="Picture 30"
+src="index_files/image029.jpg"></p>
+
+<p class=MsoNormal>Figure 29</p>
+
+<p class=MsoNormal>Sometimes you just want to fetch data and pre-render it on
+the server without using a <i>store</i>. <i>asyncData </i>is called every time
+before loading</p>
+
+<p class=MsoNormal>the component (only for pages components). <i>asyncData</i>
+is pretty much the same as normal <i>data </i>of the component and it has to
+return an object</p>
+
+<p class=MsoNormal>which will be the data of this component and has the data
+you can use in the template.</p>
+
+<p class=MsoNormal>We check if the context has payload property (<i>context.payload</i>
+in <i>asyncData)</i> which it only has during the static generation command. If
+that is the case</p>
+
+<p class=MsoNormal>then we want to return different data to be merged with our
+data for this component. We will not make a new HTTP request. instead we return
+</p>
+
+<p class=MsoNormal>a JavaScript object where our data is the context payload
+data.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><img border=0 width=724 height=302 id="Picture 31"
+src="index_files/image030.jpg"></p>
+
+<p class=MsoNormal>Figure 30</p>
+
+<p class=MsoNormal>So, during static generation we pass data (in our case it is
+<i>topic</i> and <i>posts</i>) from payload and render the template in asyncData
+method.</p>
+
+<p class=MsoNormal>We do not go through our <i>store </i>we just directly
+render the page.</p>
+
+<p class=MsoNormal>As opposed to <i>asyncData</i> method the <i>fetch </i>method
+is used to fill the store before rendering the page. It is like the <i>asynData
+</i>method</p>
+
+<p class=MsoNormal>except it does not set the component data. Our application
+uses <i>fetch </i>as we make use of Vuex store. For example</p>
+
+<p class=MsoNormal>we dispatch an action to fetch posts and render it after
+state changes. So <i>asyncData</i> is only used for static page generation in
+our application</p>
+
+<p class=MsoNormal>otherwise <i>fetch </i>method. If <i>context.payload</i> is
+true we execute <i>asyncData </i>but do not execute fetch as context.payload
+should be false to execute</p>
+
+<p class=MsoNormal><i>!context.payload</i>. This way we do not make unnecessary
+and redundant request in <i>fetch</i> as we already have payload data and
+render it in <i>asynData</i> method.</p>
+
+<p class=MsoNormal>If we do not generate a static pages and in a normal
+application flow then <i>context.payload </i>is always false, meaning we never
+execute <i>asyncData</i></p>
+
+<p class=MsoNormal>method and always execute <i>fetch</i> to receive data via HTTP
+requests. </p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><img border=0 width=750 height=298 id="Picture 32"
+src="index_files/image031.jpg"></p>
+
+<p class=MsoNormal>Figure 31</p>
+
+<p class=MsoNormal>Static page generation will not work via <i>fetch </i>and
+store. <i>AsyncData</i> direct rendering is required to render the template.</p>
+
+<p class=MsoNormal>You see the actual data rendered from firebase database via
+static page generation and <i>asyncData </i>method.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><img border=0 width=725 height=433 id="Picture 34"
+src="index_files/image032.jpg"></p>
+
+<p class=MsoNormal>Figure 32</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>Note, that we need read access to <i>topics</i> and <i>posts</i>
+during static pages generation only but not in the application. </p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+</div>
+
+</body>
+
+</html>

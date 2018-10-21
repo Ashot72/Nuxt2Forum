@@ -1,0 +1,139 @@
+{
+  "forums" : {
+    "-LEP35jzM4gEKsrShvlg" : {
+      "creator" : "ashota@gmail.com",
+      "description" : "General Discussions and Questions",
+      "lastPost" : "Search result order for different language",
+      "lastPostedDate" : "2018-06-07T13:13:41.395Z",
+      "lastPoster" : "robert@gmail.com",
+      "lastTopicId" : "-LEPJqSVSjzh_zgw9EyC",
+      "name" : "SharePoint 2013",
+      "posts" : 6,
+      "topics" : 2,
+      "topicsId" : [ "-LEPJqSVSjzh_zgw9EyC", "-LEP41EK8DCWnyJRA4V8" ]
+    },
+    "-LP0W8cHpUWSSkFQzRTb" : {
+      "creator" : "ashota@gmail.com",
+      "description" : "General Discussions",
+      "lastPost" : "Plans for the Next Iteration of ",
+      "lastPostedDate" : "2018-10-17T10:16:01.988Z",
+      "lastPoster" : "ashota@gmail.com",
+      "lastTopicId" : "-LP0WbWeoZnyyFYjYQGy",
+      "name" : "Vue.js",
+      "posts" : 1,
+      "topics" : 1,
+      "topicsId" : [ "-LP0WbWeoZnyyFYjYQGy" ]
+    }
+  },
+  "posts" : {
+    "-LEP41U7x35Yk4DY5W8l" : {
+      "answered" : false,
+      "content" : "Hi,\nI am facing one strange issue in pages.\nI am doing checkout a page from the pages library and after check out if browse a page some times eibbon is comming and some times ribbon is not showing",
+      "createdDate" : "2018-06-07T11:49:00.239Z",
+      "creator" : "ashota@gmail.com",
+      "forumId" : "-LEP35jzM4gEKsrShvlg",
+      "title" : "Ribbon is not showing sometimes after checkout the page",
+      "topicId" : "-LEP41EK8DCWnyJRA4V8"
+    },
+    "-LEPCfUK1mngY_CzqJAU" : {
+      "answered" : true,
+      "content" : "Hi ashota,\n\nTo troubleshoot the issue, check things below\n\n1. Clear IE cache.\n2. Reset IE settings. Go to IE->internet options -> advanced tab-> reset.\n3. Switch to other browser to check if the same issue will occur.",
+      "createdDate" : "2018-06-07T12:26:46.300Z",
+      "creator" : "robert@gmail.com",
+      "forumId" : "-LEP35jzM4gEKsrShvlg",
+      "title" : "Ribbon is not showing sometimes after checkout the page",
+      "topicId" : "-LEP41EK8DCWnyJRA4V8"
+    },
+    "-LEPEkQBL-IaO3tQKBs4" : {
+      "answered" : false,
+      "content" : "Hi\n\nThank You,\n\nTried in different browsers, issue is the same",
+      "createdDate" : "2018-06-07T12:35:50.903Z",
+      "creator" : "ashota@gmail.com",
+      "forumId" : "-LEP35jzM4gEKsrShvlg",
+      "title" : "Ribbon is not showing sometimes after checkout the page",
+      "topicId" : "-LEP41EK8DCWnyJRA4V8"
+    },
+    "-LEPJqgZQZ6m3uefmroZ" : {
+      "answered" : false,
+      "content" : "Hi,\n\nI have SharePoint 2013 sites with multiple language support English and Swedish. When i search a query for user with different language the order of the results in which it is displayed changes.\n\ne.g. If I search \"New Test\" for a user who has English as language in SharePoint result.\n\"https://mysites.newsite.com/newTest\" is displayed at the top but for the user who has Swedish as language in SharePoint same result for same query \"New Test\" is displayed on second page or at the bottom of the page.\n\nCould you please explain this?\n\nThank in advance\n\nRegards,\nRobert",
+      "createdDate" : "2018-06-07T12:58:06.356Z",
+      "creator" : "robert@gmail.com",
+      "forumId" : "-LEP35jzM4gEKsrShvlg",
+      "title" : "Search result order for different language",
+      "topicId" : "-LEPJqSVSjzh_zgw9EyC"
+    },
+    "-LEPMh5dM0URfJ9GZ6-L" : {
+      "answered" : false,
+      "content" : "Hi Robert,\n\nSharePoint search engine also ranks search results based on \"Document Location (URL Depth)\", \"File Type\", \"Language\", \"Click Distance\" and other components.\n\nThe language will affect the results order.\n\nYou can check the following articles mentioned the language affection in SharePoint 2013 ranking models. The articles would help you understand how the rank works\n\nBest Regsrds,\n\nAshot Abrahamyan",
+      "createdDate" : "2018-06-07T13:10:34.395Z",
+      "creator" : "ashota@gmail.com",
+      "forumId" : "-LEP35jzM4gEKsrShvlg",
+      "title" : "Search result order for different language",
+      "topicId" : "-LEPJqSVSjzh_zgw9EyC"
+    },
+    "-LEPNPj7zXfTXbZKLp7q" : {
+      "answered" : false,
+      "content" : "Hi Ashot,\n\nThank you for response.\n\nActually the issue that we have is as follows\n\nWe have a publishing page with the Title of the page as \"WeeklyReoprt\" for both English and Swedish languages. When we search for the word \"WeeklyReport\" with English as my default language, the exact page is displayed as the first ranked result (Since the title matches exactly).\n\nWith Swedish as my default language, if I search for the text \"WeeklyReport\", the same page with exactly matching title is displayed as the 8th or 9th ranked result. Our doubt is that if the same word matches the title exactly, why the results ranks have changed in Swedish language.\n\nNo Ranking model is selected in our case but the ranking of an exactly matching text changes with language and users find it difficult.\n\nWe would like to have the same matching search result at least to be shown at the top.\n\nKindly suggest..\n\nRegards,\nRobert\n\n",
+      "createdDate" : "2018-06-07T13:13:41.395Z",
+      "creator" : "robert@gmail.com",
+      "forumId" : "-LEP35jzM4gEKsrShvlg",
+      "title" : "Search result order for different language",
+      "topicId" : "-LEPJqSVSjzh_zgw9EyC"
+    },
+    "-LP0Wbh7J6qWMC_iRkXe" : {
+      "answered" : false,
+      "content" : "Exposed API for creating observables. This offers a light-weight, dead simple cross-component state management solution for small to medium scale scenarios.",
+      "createdDate" : "2018-10-17T10:16:01.988Z",
+      "creator" : "ashota@gmail.com",
+      "forumId" : "-LP0W8cHpUWSSkFQzRTb",
+      "title" : "Plans for the Next Iteration of ",
+      "topicId" : "-LP0WbWeoZnyyFYjYQGy"
+    }
+  },
+  "topics" : {
+    "-LEP41EK8DCWnyJRA4V8" : {
+      "content" : "Hi,\nI am facing one strange issue in pages.\nI am doing checkout a page from the pages library and after check out if browse a page some times eibbon is comming and some times ribbon is not showing",
+      "createdDate" : "2018-06-07T11:49:00.239Z",
+      "creator" : "ashota@gmail.com",
+      "forumId" : "-LEP35jzM4gEKsrShvlg",
+      "lastPostedDate" : "2018-06-07T11:49:00.239Z",
+      "lastPoster" : "ashota@gmail.com",
+      "postsId" : [ "-LEP41U7x35Yk4DY5W8l", "-LEPCfUK1mngY_CzqJAU", "-LEPEkQBL-IaO3tQKBs4" ],
+      "replies" : 2,
+      "title" : "Ribbon is not showing sometimes after checkout the page",
+      "views" : 16
+    },
+    "-LEPJqSVSjzh_zgw9EyC" : {
+      "content" : "Hi,\n\nI have SharePoint 2013 sites with multiple language support English and Swedish. When i search a query for user with different language the order of the results in which it is displayed changes.\n\ne.g. If I search \"New Test\" for a user who has English as language in SharePoint result.\n\"https://mysites.newsite.com/newTest\" is displayed at the top but for the user who has Swedish as language in SharePoint same result for same query \"New Test\" is displayed on second page or at the bottom of the page.\n",
+      "createdDate" : "2018-06-07T12:58:06.356Z",
+      "creator" : "robert@gmail.com",
+      "forumId" : "-LEP35jzM4gEKsrShvlg",
+      "lastPostedDate" : "2018-06-07T12:58:06.356Z",
+      "lastPoster" : "robert@gmail.com",
+      "postsId" : [ "-LEPJqgZQZ6m3uefmroZ", "-LEPMh5dM0URfJ9GZ6-L", "-LEPNPj7zXfTXbZKLp7q" ],
+      "replies" : 2,
+      "title" : "Search result order for different language",
+      "views" : 9
+    },
+    "-LP0WbWeoZnyyFYjYQGy" : {
+      "content" : "Exposed API for creating observables. This offers a light-weight, dead simple cross-component state management solution for small to medium scale scenarios.",
+      "createdDate" : "2018-10-17T10:16:01.988Z",
+      "creator" : "ashota@gmail.com",
+      "forumId" : "-LP0W8cHpUWSSkFQzRTb",
+      "lastPostedDate" : "2018-10-17T10:16:01.988Z",
+      "lastPoster" : "ashota@gmail.com",
+      "postsId" : [ "-LP0Wbh7J6qWMC_iRkXe" ],
+      "replies" : 0,
+      "title" : "Plans for the Next Iteration of Vue.js",
+      "views" : 2
+    }
+  },
+  "users" : {
+    "-LEKw1R2ddq4ndp2nGT1" : {
+      "email" : "ashota@gmail.com"
+    },
+    "-LEKwFfvMj9qP9M0D5y_" : {
+      "email" : "robert@gmail.com"
+    }
+  }
+}

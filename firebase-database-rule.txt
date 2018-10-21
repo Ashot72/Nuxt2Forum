@@ -1,0 +1,23 @@
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null",
+       "users": {
+         ".read": true,
+         ".write": true,
+         ".indexOn": "email"
+       },
+       "forums": {
+         ".read": true,
+         ".write": "auth != null",
+       },
+       "topics": {
+         // ".read": true, // for static pages generation
+      ".indexOn": "forumId"
+    },
+      "posts": {
+         // ".read": true, // for static pages generation
+      ".indexOn": "topicId"
+    }
+  }
+}
