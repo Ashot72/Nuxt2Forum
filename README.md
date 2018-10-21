@@ -1,4 +1,4 @@
-It is Nuxt.js 2.0 basic forum web application converted from my Vue.js 2.0 forum
+It is a Nuxt.js 2.0 basic forum web application converted from my Vue.js 2.0 forum
 [Vue.js 2 Forum](https://github.com/Ashot72/Vue2Forum)
 
 Nuxt.js application can run in three modes
@@ -13,7 +13,7 @@ Nuxt.js 2.0 basic forum application can work in three modes and deployed without
 
 Single Page Application version hosted on Firebase - [https://nuxt-spa-forums.firebaseapp.com](https://nuxt-spa-forums.firebaseapp.com)
 
-Static version hosted on Firebase - [https://nuxt-spa-forums.firebaseapp.com](https://nuxt-static-forums.firebaseapp.com)
+Static version hosted on Firebase - [https://nuxt-static-forums.firebaseapp.com](https://nuxt-static-forums.firebaseapp.com)
 
 
 To get started.
@@ -32,6 +32,9 @@ To get started.
        # build for production and launch server
         npm run build OR yarn run build
         npm start OR yarn start
+        
+       # generate static project
+        npm install OR yarn run generate
 ```   
  For in-depth deploymnet please go to 'How to run Nuxt.js 2 Forum' page below.
 
