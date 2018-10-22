@@ -1,4 +1,4 @@
-It is a Nuxt.js 2.0 basic forum web application converted from my Vue.js 2.0 forum
+It is a Nuxt.js 2.0 [https://nuxtjs.org/](https://nuxtjs.org/) basic forum web application converted from my Vue.js 2.0 forum
 [Vue.js 2 Forum](https://github.com/Ashot72/Vue2Forum)
 
 Nuxt.js application can run in three modes
